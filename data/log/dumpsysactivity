@@ -1,0 +1,538 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+
+  Stack #27: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+    Task id #1397
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+      userId=0 effectiveUid=u0a997 mCallingUid=u0a997 mUserSetupComplete=true mCallingPackage=com.taobao.trip
+      affinity=com.taobao.trip
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.taobao.trip/com.alipay.mobile.quinox.LauncherActivity}
+      realActivity=com.taobao.trip/com.alipay.mobile.quinox.LauncherActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=6 activityType=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{8a765f1 u0 com.taobao.trip/.home.HomeActivity t1397}, ActivityRecord{cc1b52a u0 com.taobao.trip/.train.home.FliggyTrainHomeActivity t1397}, ActivityRecord{71b4248 u0 com.taobao.trip/.train.ui.list.TrainListActivity t1397}, ActivityRecord{fb0248b u0 com.taobao.trip/.train.traindetail.TrainDetailPageActivity t1397}, ActivityRecord{e3c07b4 u0 com.taobao.trip/.train.ui.TrainCreateOrderActivity t1397}, ActivityRecord{ca52163 u0 com.taobao.trip/.train.ui.passengerlist.TrainPassengerListActivityNew t1397}, ActivityRecord{803b1be u0 com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity t1397}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+      stackId=27
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false supportsSplitScreenWindowingMode=false lastActiveTime=621374273 (inactive for 8s)
+      * Hist #6: ActivityRecord{803b1be u0 com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity t1397}
+          packageName=com.taobao.trip processName=com.taobao.trip
+          launchedFromUid=10997 launchedFromPackage=com.taobao.trip userId=0
+          app=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+          Intent { act=android.intent.action.VIEW dat=fliggy://train_usercenter_passenger_edit?spm=181.7406759.2017092101.0001 pkg=com.taobao.trip cmp=com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity (has extras) }
+          frontOfTask=false task=TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+          taskAffinity=com.taobao.trip
+          realActivity=com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity
+          baseDir=/data/app/com.taobao.trip-MT2Ldg_jA-ObX5eEMZnKbw==/base.apk
+          dataDir=/data/user/0/com.taobao.trip
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f090042 icon=0x7f0204ad theme=0x7f0b01b9
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          resultTo=ActivityRecord{ca52163 u0 com.taobao.trip/.train.ui.passengerlist.TrainPassengerListActivityNew t1397} resultWho=null resultCode=1
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ffe6e6e6
+           backgroundColor=ffffffff
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=1 lastLaunchTime=-1m10s175ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=true lastVisibleTime=-1m5s541ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity
+      * Hist #5: ActivityRecord{ca52163 u0 com.taobao.trip/.train.ui.passengerlist.TrainPassengerListActivityNew t1397}
+          packageName=com.taobao.trip processName=com.taobao.trip
+          launchedFromUid=10997 launchedFromPackage=com.taobao.trip userId=0
+          app=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+          Intent { act=android.intent.action.VIEW dat=fliggy://train_passenger_list?spm=181.7406759.1998410410.03 pkg=com.taobao.trip cmp=com.taobao.trip/.train.ui.passengerlist.TrainPassengerListActivityNew (has extras) }
+          frontOfTask=false task=TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+          taskAffinity=com.taobao.trip
+          realActivity=com.taobao.trip/.train.ui.passengerlist.TrainPassengerListActivityNew
+          baseDir=/data/app/com.taobao.trip-MT2Ldg_jA-ObX5eEMZnKbw==/base.apk
+          dataDir=/data/user/0/com.taobao.trip
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f090042 icon=0x7f0204ad theme=0x1030010
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          resultTo=ActivityRecord{e3c07b4 u0 com.taobao.trip/.train.ui.TrainCreateOrderActivity t1397} resultWho=null resultCode=1
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff222222
+           backgroundColor=ff000000
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-3m49s100ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=2688]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=false noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-1m11s966ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.taobao.trip/.train.ui.passengerlist.TrainPassengerListActivityNew
+      * Hist #4: ActivityRecord{e3c07b4 u0 com.taobao.trip/.train.ui.TrainCreateOrderActivity t1397}
+          packageName=com.taobao.trip processName=com.taobao.trip
+          launchedFromUid=10997 launchedFromPackage=com.taobao.trip userId=0
+          app=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+          Intent { act=android.intent.action.VIEW dat=fliggy://train_create_order?spm=181.7406758.1998410393.9621 pkg=com.taobao.trip cmp=com.taobao.trip/.train.ui.TrainCreateOrderActivity (has extras) }
+          frontOfTask=false task=TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+          taskAffinity=com.taobao.trip
+          realActivity=com.taobao.trip/.train.ui.TrainCreateOrderActivity
+          baseDir=/data/app/com.taobao.trip-MT2Ldg_jA-ObX5eEMZnKbw==/base.apk
+          dataDir=/data/user/0/com.taobao.trip
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f090042 icon=0x7f0204ad theme=0x7f0b01b9
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ffe6e6e6
+           backgroundColor=ffffffff
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-17m52s769ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=27184]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-1m11s953ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.taobao.trip/.train.ui.TrainCreateOrderActivity
+      * Hist #3: ActivityRecord{fb0248b u0 com.taobao.trip/.train.traindetail.TrainDetailPageActivity t1397}
+          packageName=com.taobao.trip processName=com.taobao.trip
+          launchedFromUid=10997 launchedFromPackage=com.taobao.trip userId=0
+          app=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+          Intent { act=android.intent.action.VIEW dat=fliggy://train_no_detail?spm=181.7406757.1998410225.50 pkg=com.taobao.trip cmp=com.taobao.trip/.train.traindetail.TrainDetailPageActivity (has extras) }
+          frontOfTask=false task=TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+          taskAffinity=com.taobao.trip
+          realActivity=com.taobao.trip/.train.traindetail.TrainDetailPageActivity
+          baseDir=/data/app/com.taobao.trip-MT2Ldg_jA-ObX5eEMZnKbw==/base.apk
+          dataDir=/data/user/0/com.taobao.trip
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f090042 icon=0x7f0204ad theme=0x7f0b01b9
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ffe6e6e6
+           backgroundColor=ffffffff
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-1h8m28s71ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=13544]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-22m34s764ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.taobao.trip/.train.traindetail.TrainDetailPageActivity
+      * Hist #2: ActivityRecord{71b4248 u0 com.taobao.trip/.train.ui.list.TrainListActivity t1397}
+          packageName=com.taobao.trip processName=com.taobao.trip
+          launchedFromUid=10997 launchedFromPackage=com.taobao.trip userId=0
+          app=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+          Intent { act=android.intent.action.VIEW dat=fliggy://train_list?spm=181.7406756.1998410158.05 pkg=com.taobao.trip cmp=com.taobao.trip/.train.ui.list.TrainListActivity (has extras) }
+          frontOfTask=false task=TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+          taskAffinity=com.taobao.trip
+          realActivity=com.taobao.trip/.train.ui.list.TrainListActivity
+          baseDir=/data/app/com.taobao.trip-MT2Ldg_jA-ObX5eEMZnKbw==/base.apk
+          dataDir=/data/user/0/com.taobao.trip
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f090042 icon=0x7f0204ad theme=0x7f0b01b9
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ffe6e6e6
+           backgroundColor=ffffffff
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-1h8m36s528ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=9872]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h8m35s763ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.taobao.trip/.train.ui.list.TrainListActivity
+      * Hist #1: ActivityRecord{cc1b52a u0 com.taobao.trip/.train.home.FliggyTrainHomeActivity t1397}
+          packageName=com.taobao.trip processName=com.taobao.trip
+          launchedFromUid=10997 launchedFromPackage=com.taobao.trip userId=0
+          app=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+          Intent { act=android.intent.action.VIEW dat=fliggy://train_home?spm=181.9476855.0.0 pkg=com.taobao.trip cmp=com.taobao.trip/.train.home.FliggyTrainHomeActivity (has extras) }
+          frontOfTask=false task=TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+          taskAffinity=com.taobao.trip
+          realActivity=com.taobao.trip/.train.home.FliggyTrainHomeActivity
+          baseDir=/data/app/com.taobao.trip-MT2Ldg_jA-ObX5eEMZnKbw==/base.apk
+          dataDir=/data/user/0/com.taobao.trip
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f090042 icon=0x7f0204ad theme=0x7f0b01b9
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ffe6e6e6
+           backgroundColor=ffffffff
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-1h8m38s969ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=7608]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h8m37s859ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.taobao.trip/.train.home.FliggyTrainHomeActivity
+      * Hist #0: ActivityRecord{8a765f1 u0 com.taobao.trip/.home.HomeActivity t1397}
+          packageName=com.taobao.trip processName=com.taobao.trip
+          launchedFromUid=10997 launchedFromPackage=com.taobao.trip userId=0
+          app=ProcessRecord{ca335c7 32147:com.taobao.trip/u0a997}
+          Intent { act=android.intent.action.VIEW dat=fliggy://home_main flg=0x10000000 pkg=com.taobao.trip cmp=com.taobao.trip/.home.HomeActivity (has extras) }
+          frontOfTask=true task=TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+          taskAffinity=com.taobao.trip
+          realActivity=com.taobao.trip/.home.HomeActivity
+          baseDir=/data/app/com.taobao.trip-MT2Ldg_jA-ObX5eEMZnKbw==/base.apk
+          dataDir=/data/user/0/com.taobao.trip
+          stateNotNeeded=false componentSpecified=false mActivityType=standard
+          compat={440dpi} labelRes=0x7f090042 icon=0x7f0204ad theme=0x7f0b01c3
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=fff5f5f5
+           backgroundColor=fffafafa
+           statusBarColor=ff757575
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-1h8m42s76ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=5488]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h8m40s769ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.taobao.trip/.home.HomeActivity
+
+    Running activities (most recent first):
+      TaskRecord{ac8a239 #1397 A=com.taobao.trip U=0 StackId=27 sz=7}
+        Run #6: ActivityRecord{803b1be u0 com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity t1397}
+        Run #5: ActivityRecord{ca52163 u0 com.taobao.trip/.train.ui.passengerlist.TrainPassengerListActivityNew t1397}
+        Run #4: ActivityRecord{e3c07b4 u0 com.taobao.trip/.train.ui.TrainCreateOrderActivity t1397}
+        Run #3: ActivityRecord{fb0248b u0 com.taobao.trip/.train.traindetail.TrainDetailPageActivity t1397}
+        Run #2: ActivityRecord{71b4248 u0 com.taobao.trip/.train.ui.list.TrainListActivity t1397}
+        Run #1: ActivityRecord{cc1b52a u0 com.taobao.trip/.train.home.FliggyTrainHomeActivity t1397}
+        Run #0: ActivityRecord{8a765f1 u0 com.taobao.trip/.home.HomeActivity t1397}
+
+    mResumedActivity: ActivityRecord{803b1be u0 com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity t1397}
+    mLastPausedActivity: ActivityRecord{1ed7307 u0 com.taobao.trip/.commonui.ui.PassengerWheelSelectActivity t-1 f}
+
+  Stack #0: type=home mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #1
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{b6d12b5 #1 I=com.miui.home/.launcher.Launcher U=0 StackId=0 sz=1}
+      userId=0 effectiveUid=u0a7 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=com.android.systemui
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.miui.home/.launcher.Launcher}
+      realActivity=com.miui.home/.launcher.Launcher
+      autoRemoveRecents=false isPersistable=false numFullscreen=1 activityType=2
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{7500dce u0 com.miui.home/.launcher.Launcher t1}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      stackId=0
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false supportsSplitScreenWindowingMode=false lastActiveTime=617254864 (inactive for 4127s)
+      * Hist #0: ActivityRecord{7500dce u0 com.miui.home/.launcher.Launcher t1}
+          packageName=com.miui.home processName=com.miui.home
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{995d5b7 2215:com.miui.home/u0a7}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.miui.home/.launcher.Launcher }
+          frontOfTask=true task=TaskRecord{b6d12b5 #1 I=com.miui.home/.launcher.Launcher U=0 StackId=0 sz=1}
+          taskAffinity=null
+          realActivity=com.miui.home/.launcher.Launcher
+          baseDir=/data/app/com.miui.home-oNN7sUcsucTBSwRZy4k-kQ==/base.apk
+          dataDir=/data/user/0/com.miui.home
+          stateNotNeeded=true componentSpecified=false mActivityType=home
+          compat={440dpi} labelRes=0x7f070039 icon=0x7f0200af theme=0x7f0c0016
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.5 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=home} s.5 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=home} s.9 themeChanged=0 themeChangedFlags=0}
+          OverrideConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mActivityType=home} themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ffe6e6e6
+           backgroundColor=ff000000
+           statusBarColor=ff000000
+           navigationBarColor=0
+          launchFailed=false launchCount=0 lastLaunchTime=-2d8h6m5s409ms
+          haveState=false icicle=null
+          state=PAUSED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=home
+          waitingVisible=false nowVisible=true lastVisibleTime=-1h44m43s200ms
+          connections=[ConnectionRecord{aed48d u0 CR com.android.systemui/.fsgesture.FsGestureService:@e73f124}]
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.miui.home/.launcher.Launcher
+
+    Running activities (most recent first):
+      TaskRecord{b6d12b5 #1 I=com.miui.home/.launcher.Launcher U=0 StackId=0 sz=1}
+        Run #0: ActivityRecord{7500dce u0 com.miui.home/.launcher.Launcher t1}
+
+    mLastPausedActivity: ActivityRecord{7500dce u0 com.miui.home/.launcher.Launcher t1}
+
+  Stack #17: type=recents mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #1387
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{8c12cb7 #1387 A=com.android.systemui U=0 StackId=17 sz=1}
+      userId=0 effectiveUid=1000 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=com.android.systemui
+      affinity=com.android.systemui
+      intent={flg=0x18804000 cmp=com.android.systemui/.recents.RecentsActivity}
+      realActivity=com.android.systemui/.recents.RecentsActivity
+      autoRemoveRecents=false isPersistable=false numFullscreen=1 activityType=3
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{9518ea1 u0 com.android.systemui/.recents.RecentsActivity t1387}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      stackId=17
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true supportsSplitScreenWindowingMode=true lastActiveTime=617253866 (inactive for 4128s)
+      * Hist #0: ActivityRecord{9518ea1 u0 com.android.systemui/.recents.RecentsActivity t1387}
+          packageName=com.android.systemui processName=com.android.systemui
+          launchedFromUid=1000 launchedFromPackage=com.android.systemui userId=0
+          app=ProcessRecord{a573967 1893:com.android.systemui/1000}
+          Intent { flg=0x18804000 cmp=com.android.systemui/.recents.RecentsActivity (has extras) }
+          frontOfTask=true task=TaskRecord{8c12cb7 #1387 A=com.android.systemui U=0 StackId=17 sz=1}
+          taskAffinity=com.android.systemui
+          realActivity=com.android.systemui/.recents.RecentsActivity
+          baseDir=/system/priv-app/MiuiSystemUI/MiuiSystemUI.apk
+          dataDir=/data/user_de/0/com.android.systemui
+          stateNotNeeded=true componentSpecified=true mActivityType=recents
+          compat={440dpi} labelRes=0x7f110071 icon=0x7f080298 theme=0x7f1200f9
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=recents} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=recents} s.9 themeChanged=0 themeChangedFlags=0}
+          OverrideConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mActivityType=recents} themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff212121
+           backgroundColor=ff303030
+           statusBarColor=0
+           navigationBarColor=80000000
+          launchFailed=false launchCount=0 lastLaunchTime=-23h24m46s153ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=1472]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=false mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=3
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=recents
+          waitingVisible=false nowVisible=false lastVisibleTime=-1h8m50s117ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.android.systemui/.recents.RecentsActivity
+
+    Running activities (most recent first):
+      TaskRecord{8c12cb7 #1387 A=com.android.systemui U=0 StackId=17 sz=1}
+        Run #0: ActivityRecord{9518ea1 u0 com.android.systemui/.recents.RecentsActivity t1387}
+
+    mLastPausedActivity: ActivityRecord{9518ea1 u0 com.android.systemui/.recents.RecentsActivity t1387}
+
+  Stack #5: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #1375
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{24fa6ea #1375 A=com.android.settings.root U=0 StackId=5 sz=2}
+      userId=0 effectiveUid=1000 mCallingUid=u0a7 mUserSetupComplete=true mCallingPackage=com.miui.home
+      affinity=com.android.settings.root
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.MiuiSettings}
+      origActivity=com.android.settings/.MainSettings
+      realActivity=com.android.settings/.MiuiSettings
+      autoRemoveRecents=false isPersistable=true numFullscreen=2 activityType=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{cdea027 u0 com.android.settings/.MainSettings t1375}, ActivityRecord{989524 u0 com.android.settings/.SubSettings t1375}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{c3492f6 3110:com.android.settings/1000}
+      stackId=5
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true supportsSplitScreenWindowingMode=true lastActiveTime=529856769 (inactive for 91525s)
+      * Hist #1: ActivityRecord{989524 u0 com.android.settings/.SubSettings t1375}
+          packageName=com.android.settings processName=com.android.settings
+          launchedFromUid=1000 launchedFromPackage=com.android.settings userId=0
+          app=ProcessRecord{c3492f6 3110:com.android.settings/1000}
+          Intent { act=android.intent.action.MAIN cmp=com.android.settings/.SubSettings (has extras) }
+          frontOfTask=false task=TaskRecord{24fa6ea #1375 A=com.android.settings.root U=0 StackId=5 sz=2}
+          taskAffinity=com.android.settings
+          realActivity=com.android.settings/.SubSettings
+          baseDir=/system/priv-app/Settings/Settings.apk
+          dataDir=/data/user_de/0/com.android.settings
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f12129c icon=0x7f0f0002 theme=0x7f130226
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.9 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=/data/system_ce/0/recent_images/1375_activity_icon_1562134553372.png primaryColor=ffe6e6e6
+           backgroundColor=ff000000
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-23h12m42s610ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=3568]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_REMOVED
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-23h12m35s714ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.android.settings/.SubSettings
+      * Hist #0: ActivityRecord{cdea027 u0 com.android.settings/.MainSettings t1375}
+          packageName=com.android.settings processName=com.android.settings
+          launchedFromUid=10007 launchedFromPackage=com.miui.home userId=0
+          app=ProcessRecord{c3492f6 3110:com.android.settings/1000}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.MainSettings bnds=[76,1635][244,1803] (has extras) }
+          frontOfTask=true task=TaskRecord{24fa6ea #1375 A=com.android.settings.root U=0 StackId=5 sz=2}
+          taskAffinity=com.android.settings.root
+          realActivity=com.android.settings/.MiuiSettings
+          baseDir=/system/priv-app/Settings/Settings.apk
+          dataDir=/data/user_de/0/com.android.settings
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={440dpi} labelRes=0x7f12129d icon=0x7f0f0002 theme=0x7f13021a
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.5 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.5 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ffe6e6e6
+           backgroundColor=ff000000
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-23h57m42s277ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=3096]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_REMOVED
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-23h12m47s90ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.android.settings/.MainSettings
+
+    Running activities (most recent first):
+      TaskRecord{24fa6ea #1375 A=com.android.settings.root U=0 StackId=5 sz=2}
+        Run #1: ActivityRecord{989524 u0 com.android.settings/.SubSettings t1375}
+        Run #0: ActivityRecord{cdea027 u0 com.android.settings/.MainSettings t1375}
+
+    mLastPausedActivity: ActivityRecord{989524 u0 com.android.settings/.SubSettings t1375}
+
+  Stack #8: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #1378
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{3c18ddb #1378 A=com.dianping.v1 U=0 StackId=8 sz=1}
+      userId=0 effectiveUid=u0a147 mCallingUid=u0a147 mUserSetupComplete=true mCallingPackage=com.dianping.v1
+      affinity=com.dianping.v1
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dianping.v1/com.dianping.main.guide.SplashScreenActivity}
+      realActivity=com.dianping.v1/com.dianping.main.guide.SplashScreenActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{6eba625 u0 com.dianping.v1/.NovaMainActivity t1378}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      stackId=8
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true supportsSplitScreenWindowingMode=true lastActiveTime=529840031 (inactive for 91542s)
+      * Hist #0: ActivityRecord{6eba625 u0 com.dianping.v1/.NovaMainActivity t1378}
+          packageName=com.dianping.v1 processName=com.dianping.v1
+          launchedFromUid=10147 launchedFromPackage=com.dianping.v1 userId=0
+          app=null
+          Intent { act=android.intent.action.VIEW dat=dianping://home flg=0x10000000 pkg=com.dianping.v1 cmp=com.dianping.v1/.NovaMainActivity }
+          frontOfTask=true task=TaskRecord{3c18ddb #1378 A=com.dianping.v1 U=0 StackId=8 sz=1}
+          taskAffinity=com.dianping.v1
+          realActivity=com.dianping.v1/.NovaMainActivity
+          baseDir=/data/app/com.dianping.v1-sDKfXyVksv12iPyfseGQgg==/base.apk
+          dataDir=/data/user/0/com.dianping.v1
+          stateNotNeeded=false componentSpecified=false mActivityType=standard
+          compat={440dpi} labelRes=0x7f0f0059 icon=0x7f080a7f theme=0x7f100277
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=undefined} s.5 themeChanged=0 themeChangedFlags=0}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.5 themeChanged=0 themeChangedFlags=0}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw392dp w392dp h730dp 440dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2028) mAppBounds=Rect(0, 90 - 1080, 2118) mWindowingMode=fullscreen mActivityType=standard} s.9 themeChanged=0 themeChangedFlags=0}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=fff5f5f5
+           backgroundColor=fffafafa
+           statusBarColor=ff000000
+           navigationBarColor=ffffffff
+          launchFailed=false launchCount=0 lastLaunchTime=-23h37m58s469ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=62768]
+          state=DESTROYED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=true idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-23h22m4s737ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          realComponentName=com.dianping.v1/.NovaMainActivity
+
+  ResumedActivity: ActivityRecord{803b1be u0 com.taobao.trip/.train.ui.TrainUserCenterPassengerEditActivity t1397}
+  mFocusedStack=ActivityStack{9f0a07e stackId=27 type=standard mode=fullscreen visible=true translucent=false, 1 tasks} mLastFocusedStack=ActivityStack{9f0a07e stackId=27 type=standard mode=fullscreen visible=true translucent=false, 1 tasks}
+  mCurTaskIdForUser={0=1397}
+  mUserStackInFront={}
+  displayId=0 stacks=5
+   mHomeStack=ActivityStack{163a4bb stackId=0 type=home mode=fullscreen visible=false translucent=true, 1 tasks}
+   mRecentsStack=ActivityStack{9cb838d stackId=17 type=recents mode=fullscreen visible=false translucent=true, 1 tasks}
+  isHomeRecentsComponent=false  KeyguardController:
+    mKeyguardShowing=false
+    mAodShowing=false
+    mKeyguardGoingAway=false
+    mOccluded=false
+    mDismissingKeyguardActivity=null
+    mDismissalRequested=false
+    mVisibilityTransactionDepth=0
+  LockTaskController
+    mLockTaskModeState=NONE
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+      u0:[]

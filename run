@@ -1,0 +1,4 @@
+#!/bin/bash
+
+PYTHONHASHSEED=0 python src/application.py
+#PYTHONHASHSEED=0 python src/page.py

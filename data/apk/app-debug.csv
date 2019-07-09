@@ -1,0 +1,7 @@
+,activityName,exitId,avaliable
+0,com.example.ws3.testapp.MainActivity,KEYCODE_BACK,1
+14,com.example.ws3.testapp.parser.BActivity,exit_activity_b,1
+15,com.example.ws3.testapp.parser.CActivity,KEYCODE_BACK,1
+16,com.example.ws3.testapp.parser.DActivity,KEYCODE_BACK,1
+17,com.example.ws3.testapp.parser.FActivity,KEYCODE_BACK,1
+

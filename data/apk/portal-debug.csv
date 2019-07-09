@@ -1,0 +1,12 @@
+,activityName,pageName,exitId,avaliable
+0,com.taobao.trip.h5container.ui.ActWebviewActivity,,KEYCODE_BACK,1
+4,com.taobao.trip.bus.homepage.BusHomeActivity,,fliggy_commonui_navigation_bar_left_out,1
+6,com.taobao.trip.bus.buslist.BusListActivity,fliggy_commonui_navigation_bar_left_out,1
+7,com.taobao.trip.bus.busdetail.ui.BusDetailActivity,,layout_nav_item_left_out,1
+9,com.taobao.trip.bus.orderdetail.BusOrderDetailActivity,,fliggy_commonui_navigation_bar_left_out,1
+33,com.taobao.trip.fliggybuy.ui.FliggyBuyActivity,,fliggy_commonui_navigation_bar_left_out,1
+151,com.taobao.trip.messagecenter.home.fragment.MessageCenterHomeActivity,,fliggy_commonui_navigation_bar_left_out,1
+153,com.taobao.trip.messagecenter.settings.fragment.MessageCenterSettingsActivity,,fliggy_commonui_navigation_bar_left_out,1
+269,com.taobao.trip.home.HomeActivity,,KEYCODE_BACK,1
+272,com.taobao.trip.weex.WeexActivity,,KEYCODE_BACK,0
+425,com.fliggy.map.common.CommonBasicMapActivity,,btn_common_map_back,1

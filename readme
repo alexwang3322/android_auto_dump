@@ -1,0 +1,61 @@
+
+使用说明
+
+一个自动遍历应用中所有界面的程序，并生成结果，可根据配置文件定义遍历的规则
+
+
+依赖工具：
+    1. Apktool 
+    2. uiautomate
+
+
+文件和目录配置说明：
+    ├── data
+    │   ├── apk // 运行在手机上的测试apk和配置csv清单
+    │   ├── dump // 运行之后，程序会自动根据包名dump出来遍历过的页面信息（xml,截图）
+    │   └── log // 存储运行时的临时文件
+    ├── readme 
+    ├── run // 运行脚本，也可自行执行python命令
+    └── src // 源代码目录
+
+    
+使用方式：
+    配置完毕后，运行如下指令
+    $ chmod +x run
+    $ ./run
+
+
+一些说明：
+    代码解释：
+        我定义了若干对象，分别是：
+        1. application，表示正在运行的应用
+        2. window，用来检查当前页面变化状态，记录页面变化的顺序等，和application一样是唯一的对象
+        3. page，用来表示一个页面，页面的定义是一个有效元素与其他界面完全不一样，即为一个页面，所有遍历过，并没有退出的page，都将保存在window的栈中
+        4. element，一个控件
+        5. androidManifestParser，用来解析apk中的manifest中的Activity信息，并保存为同名的csv文件的工具，配置清单可参考data/apk/app-debug.csv 
+    
+    配置文件定义：
+        **.csv
+        文件格式： ,activityName,exitId,pageName,avaliable
+                
+                activityName 页面的activity名字
+                exitId 当前页面退出按键的资源ID名，如果不指定，则使用系统KEYCODE_BACK事件
+                pageName 当前页面的页面名字，刚开始不需要定义，默认为空，之后在遍历结果之后，可以选择性填写
+                avaliable 当前页是否不需要遍历，进来后即直接退出
+    
+
+
+这个工具我们可以做很多事情：
+    1. 拿到整个流程的快照，使用图形算法比对UI
+    2. 自动化测试，构造人工时测试的步骤，判断跳转链路是否正确
+    3. 生成测试的数据，生成label(页面，控件，控件类型)数据；
+    4. 尝试用生成数据训练神经网络解决问题，例如：判断控件是否文字，是否图像；
+
+下一步:
+    1. 针对不同的element, button, listview, viewgroup的操作(click, input)进行适配
+    1.2. 重构element，重新定义每种element定义各种退出方式（dialog.exit, button, back, fling_up_from_xy, ...）
+    2. 对应用程序的resource_id进行更新，来进行可以点击选项
+
+
+
+ 
