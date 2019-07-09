@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import tool 
 from element import Element
-from pout import out
 from base import PageBase
 import cv2
 import os
